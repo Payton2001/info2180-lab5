@@ -4,6 +4,7 @@ body {
     margin: auto;
     font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    background-color: #e1e6f3;
 }
 
 header {
@@ -25,19 +26,16 @@ img {
     width: auto;
 }
 
-body {
-    background-color: #ebedf2;
-}
-
 #controls {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 input {
-    box-shadow: 5px;
+    box-shadow: 0px 1px #6b7280 ;
     display: flex;
     font-weight: 400;
     text-align: left;
@@ -49,19 +47,23 @@ input {
     border-radius: .15rem;
     border: none;
     width: 600px;
+
 }
 
 label {
     visibility: hidden;
 }
 
+#buttons{
+    display: inline-block;
+    gap: 10px;
+}
+
 button {
-    background-color: #48BB78;
     color: white;
     box-shadow: 5px;
-    display: inline-block;
     font-weight: 300;
-    text-align: center;
+    display: inline-block;
     vertical-align: middle;
     justify-content: center;
     align-items: center;
@@ -72,6 +74,17 @@ button {
     border-radius: .15rem;
     border: none;
     width: 150px;
+
+}
+
+#city {
+    background-color: #5A67D8;
+    display: inline-block;
+}
+
+#lookup {
+    background-color: #48BB78;
+    display: inline-block;
 }
 
 #result {

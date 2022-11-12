@@ -4135,7 +4135,7 @@ CREATE TABLE `countries` (
   `continent` enum('Asia','Europe','North America','Africa','Oceania','Antarctica','South America') NOT NULL default 'Asia',
   `region` char(26) NOT NULL default '',
   `surface_area` float(10,2) NOT NULL default '0.00',
-  `independence_year` smallint(6) default NULL,
+`independence_year` smallint(6) default NULL,
   `population` int(11) NOT NULL default '0',
   `life_expectancy` float(3,1) default NULL,
   `gnp` float(10,2) default NULL,
